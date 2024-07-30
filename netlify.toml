@@ -1,6 +1,12 @@
-
+[build]
 command = "ng build"
+commandOrigin: "ui"
 publish = "/opt/build/repo/dist/furntiture-project/browser"
+publishOrigin: "ui"
 
 [functions]
-        node_bundler = "esbuild"
+  node_bundler = "esbuild"
+  functionsDirectory: "/opt/build/repo/netlify/functions"
+
+[plugins]  
+ package: '@netlify/angular-runtime'
