@@ -9,5 +9,4 @@ publish = "/opt/build/repo/dist/furntiture-project/browser"
   node_bundler = "esbuild"
 
 
-[plugins]  
- package: '@netlify/angular-runtime'
+
