@@ -7,7 +7,7 @@ publish = "/opt/build/repo/dist/furntiture-project/browser"
 
 [functions]
   node_bundler = "esbuild"
-  functionsDirectory: "/opt/build/repo/netlify/functions"
+
 
 [plugins]  
  package: '@netlify/angular-runtime'
