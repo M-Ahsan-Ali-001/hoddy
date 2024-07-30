@@ -1,5 +1,6 @@
 [build]
 command = "ng build"
+CI="ng build"
 commandOrigin: "ui"
 publish = "/opt/build/repo/dist/furntiture-project/browser"
 publishOrigin: "ui"
