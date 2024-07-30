@@ -2,7 +2,7 @@
 command = "ng build"
 CI="ng build"
 
-publish = "/opt/build/repo/dist/furntiture-project/browser"
+publish = "dist/furntiture-project/browser"
 
 
 [functions]
